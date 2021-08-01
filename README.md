@@ -26,6 +26,41 @@ const counterReducer=(state,action)=>{
 const store = createStore();`
 
 
+step 3: 
+
+`import { createStore } from 'redux';
+
+const counterReducer = (state = { counter: 0 }, action) => {
+  if (action.type === 'increment') {
+    return {
+      counter: state.counter + 1
+    };
+  }
+  if (action.type === 'decrement') {
+    return {
+      counter: state.counter - 1
+    };
+  }
+  return state;
+};
+
+const store = createStore(counterReducer);
+
+export default store;
+ `
+
+step 4: 
+
+`import store from './store/index';
+import { Provider } from 'react-redux';
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+);
+`
 
 
 
