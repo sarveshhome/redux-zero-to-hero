@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+import Counter from './components/Counter';
 export default function App() {
   return (
     <>
@@ -11,8 +11,7 @@ export default function App() {
         <li> a method to get the state </li>
         <li> a method to change the state</li>
       </ul>
-
-      
+      <Counter />
     </>
   );
 }
