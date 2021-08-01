@@ -1,3 +1,4 @@
+import React from 'react';
 import classes from './Counter.module.css';
 
 const Counter = () => {
@@ -12,4 +13,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export { Counter };
