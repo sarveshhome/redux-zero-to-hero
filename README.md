@@ -14,4 +14,19 @@ first create store folder. then create index.js
 
 const store = createStore();`
 
+
+step 2:
+
+`import { createStore } from 'redux';
+
+const counterReducer=(state,action)=>{
+
+}
+
+const store = createStore();`
+
+
+
+
+
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-bvhfzz)
