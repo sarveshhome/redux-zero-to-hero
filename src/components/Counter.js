@@ -2,7 +2,9 @@ import React from 'react';
 import classes from './Counter.module.css';
 
 const Counter = () => {
-  const toggleCounterHandler = () => {};
+  const toggleCounterHandler = () => {
+    console.log('counter button click me!');
+  };
 
   return (
     <main className={classes.counter}>
