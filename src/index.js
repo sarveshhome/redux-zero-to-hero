@@ -5,6 +5,15 @@ import App from './App';
 import store from './store/index';
 import { Provider } from 'react-redux';
 
+//Store - Globalized state
+
+//Action - Increment
+
+//Reducer -
+
+//Dispatch
+
+
 ReactDOM.render(
   <Provider store={store}>
     <App />

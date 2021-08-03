@@ -63,5 +63,16 @@ ReactDOM.render(
 `
 
 
+# concept
+
+//Store - Globalized state
+
+//Action - Increment
+
+//Reducer -
+
+//Dispatch
+
+
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-bvhfzz)
