@@ -12,7 +12,7 @@ import { Provider } from 'react-redux';
 //Reducer -
 
 //Dispatch
-
+//dispatch is a function of the Redux store. You call store.dispatch to dispatch an action. This is the only way to trigger a state change.
 
 ReactDOM.render(
   <Provider store={store}>
